@@ -1,4 +1,4 @@
-module github.com/aunum/gold
+module github.com/m8u/gold
 
 go 1.13
 
