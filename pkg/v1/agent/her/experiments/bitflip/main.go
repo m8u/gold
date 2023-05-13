@@ -5,11 +5,11 @@ import (
 	"github.com/aunum/gold/pkg/v1/common"
 	"github.com/aunum/gold/pkg/v1/common/require"
 	envv1 "github.com/aunum/gold/pkg/v1/env"
-	modelv1 "github.com/aunum/goro/pkg/v1/model"
 	"github.com/aunum/gold/pkg/v1/track"
 	"github.com/aunum/log"
+	modelv1 "github.com/m8u/goro/pkg/v1/model"
 
-	g "gorgonia.org/gorgonia"
+	g "github.com/m8u/gorgonia"
 )
 
 type test struct {

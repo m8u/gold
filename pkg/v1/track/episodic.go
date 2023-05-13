@@ -3,7 +3,7 @@ package track
 import (
 	"fmt"
 
-	g "gorgonia.org/gorgonia"
+	g "github.com/m8u/gorgonia"
 )
 
 // Episode represents a training episode.

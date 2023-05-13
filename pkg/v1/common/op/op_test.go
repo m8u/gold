@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	g "gorgonia.org/gorgonia"
+	g "github.com/m8u/gorgonia"
 )
 
 func TestClip(t *testing.T) {

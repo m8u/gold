@@ -3,10 +3,10 @@ package ppo
 import (
 	agentv1 "github.com/aunum/gold/pkg/v1/agent"
 	envv1 "github.com/aunum/gold/pkg/v1/env"
-	"github.com/aunum/goro/pkg/v1/layer"
-	modelv1 "github.com/aunum/goro/pkg/v1/model"
 	"github.com/aunum/log"
-	g "gorgonia.org/gorgonia"
+	g "github.com/m8u/gorgonia"
+	"github.com/m8u/goro/pkg/v1/layer"
+	modelv1 "github.com/m8u/goro/pkg/v1/model"
 )
 
 // ModelConfig are the hyperparameters for a model.

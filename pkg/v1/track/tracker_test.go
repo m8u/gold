@@ -11,7 +11,7 @@ import (
 	"gorgonia.org/tensor"
 
 	. "github.com/aunum/gold/pkg/v1/track"
-	g "gorgonia.org/gorgonia"
+	g "github.com/m8u/gorgonia"
 )
 
 func TestTracker(t *testing.T) {
@@ -65,7 +65,7 @@ func TestTracker(t *testing.T) {
 	xys := aggs.GonumXYs()
 	fmt.Println("xys: ", xys)
 
-	plt, err := plot.New()
+	plt := plot.New()
 	require.NoError(t, err)
 	line, err := plotter.NewLine(xys)
 	require.NoError(t, err)

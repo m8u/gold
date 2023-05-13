@@ -2,8 +2,8 @@ package ppo
 
 import (
 	"github.com/aunum/gold/pkg/v1/common/op"
-	modelv1 "github.com/aunum/goro/pkg/v1/model"
-	g "gorgonia.org/gorgonia"
+	g "github.com/m8u/gorgonia"
+	modelv1 "github.com/m8u/goro/pkg/v1/model"
 )
 
 // Loss is a custom loss for PPO. It is designed to ensure that policies are never

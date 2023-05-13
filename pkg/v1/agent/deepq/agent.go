@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/aunum/gold/pkg/v1/dense"
-	"github.com/aunum/goro/pkg/v1/model"
+	"github.com/m8u/goro/pkg/v1/model"
 
 	agentv1 "github.com/aunum/gold/pkg/v1/agent"
 	"github.com/aunum/gold/pkg/v1/common"

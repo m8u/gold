@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/aunum/log"
-	g "gorgonia.org/gorgonia"
+	g "github.com/m8u/gorgonia"
 )
 
 // Tracker is a means of tracking values on a graph.

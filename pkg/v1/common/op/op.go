@@ -2,7 +2,7 @@
 package op
 
 import (
-	g "gorgonia.org/gorgonia"
+	g "github.com/m8u/gorgonia"
 )
 
 // Clip the node value.
